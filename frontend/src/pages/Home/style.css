@@ -1,0 +1,94 @@
+.img_card {
+    border: none;
+    margin-bottom: 12px;
+    width: 100%;
+    background-color: transparent;
+    border-radius: "2px";
+    cursor: pointer;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.img_card:hover {
+    /* box-shadow: 0px 5px 10px #d0d0d0; */
+    cursor: pointer;
+    background-color: none;
+    padding: 11px;
+    transition: 1s;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 8px;
+    right: 3px;
+    color: #f1f1f1;
+    /* background-color: #ffd500; */
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 16px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 0px 14px;
+    font-weight: bold;
+    width: 50px;
+
+}
+.responsive{
+    box-shadow: 0px 5px 10px #d0d0d0;
+}
+.img_card:hover .overlay {
+    opacity: 1;
+    width: 50px;
+    top: 8px;
+
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    /* top: 0; */
+    color: #f1f1f1;
+    background-color: rgba(50, 50, 50, 0.4);
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 16px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 0px 0px 12px 12px;
+    font-weight: bold;
+    width: 100px;
+
+}
+
+.img_card:hover .text {
+    opacity: 1;
+    width: 92.3%;
+    margin: auto;
+    
+
+}
+
+.download:hover {
+    color: #8AAAE5;
+    transition: 0.2s;
+}
+
+.search {
+    font-size: 20px;
+    color: black;
+
+}
+
+.search:hover {
+    color: #8AAAE5;
+
+}
